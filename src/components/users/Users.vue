@@ -8,7 +8,7 @@
     </el-breadcrumb>
     <!-- 卡片视图 -->
     <el-card class="box-card">
-      <!-- //分栏间隔 :gutter代表栏与栏之间的间隔 :span代表每栏所在的位置-->
+      <!-- //分栏间隔 :gutter代表栏与栏之间的间隔 :span代表每栏所占的位置-->
       <el-row :gutter="20">
         <el-col :span="6">
           <!-- 搜索框 -->
