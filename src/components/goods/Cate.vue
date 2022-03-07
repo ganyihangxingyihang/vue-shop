@@ -130,7 +130,8 @@ export default {
       cascaderProps: {
         value: 'cat_id',
         label: 'cate_name',
-        children: 'children'
+        children: 'children',
+        expandTrigger: 'hover'
       },
       //级联选择器选中的父级分类的id数组
       selectKeys: [],
